@@ -11,12 +11,15 @@
   <title></title>
   <style>
     body {
-      font-family: Adobe Garamond Pro, Monaco, "Lucida Console", monospace;
+      font-family: 'Open Sans Light', sans-serif;
+      font-weight: 300;
+
     }
     .maintitle {
       background: #01468d; 
       color: white; 
       font-family: Europa, source-sans-pro, sans-serif; 
+      font-family: 'Arvo', serif;
       padding-top: 16pt; 
       padding-bottom: 16pt; 
       font-size: 40pt; 
@@ -24,6 +27,7 @@
     }
     h1 {
       font-family: Europa;
+      font-family: 'Arvo', serif;
       font-size: 24pt;
       color: #01468d;
     }
@@ -33,6 +37,7 @@
     }
     h2 {
       font-family: Europa;
+      font-family: 'Arvo', serif;
       font-size: 16pt;
       color: #01468d;
     }
@@ -100,13 +105,20 @@
       border-left: none;
     }
     .speakers img {
-      height: 150px;
+      max-height: 150px;
       width: auto;
+      width: 100%;
       max-width: 150px;
     }
     .speakers {
       font-size: 15pt;
     }
+
+    li.person .col-xs-2 {
+      min-width: 150px;
+    }
+
+
 
   </style>
 
@@ -192,8 +204,7 @@
             <span class="date">Sep 28, 7PM</span>
           </h1>
           <p class="desc">
-          Our kick-off event focuses on four data-intensive startups that are enhancing human expertise in the areas of
-          creative work, marketing, and dining.
+          Our kick-off event features short talks and a panel with three experts at cutting-edge data intensive startups that are enhancing human expertise in the areas of creative work, analytics, and marketing.
           </p>
 
           <ul class=" speakers">
@@ -203,7 +214,7 @@
                 </div>
                 <div class="col-xs-10">
                   <a href="http://www.evanjones.ca/">Evan Jones</a>
-                  <p>BlueCore</p>
+                  <p>Senior Engineer.  BlueCore</p>
                 </div>
             </li>
             <li class="row person">
@@ -211,15 +222,15 @@
                 <img src="./images/newmedia/speaker_adammarcus.jpg"/>
               </div>
               <div class="col-xs-10">
-                <a href="http://www.b12.io">Adam Marcus</a>
-                <p>B12</p>
+                <a href="http://marcua.net/">Adam Marcus</a>
+                <p>CTO.  <a href="http://www.b12.io">B12</a></p>
               </div>
             </li>
             <li class="row person">
               <div class="col-xs-2">
                 <img src="./images/newmedia/speaker_debrabant.jpeg"/>
               </div>
-              <div class="col-xs-10">
+              <div class="col-xs-8">
                 <a href="http://www.actioniq.io">Justin DeBrabant</a>
                 <p>ActionIQ</p>
               </div>
@@ -269,3 +280,5 @@
 
 <script src="https://use.typekit.net/mnd0jng.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans:300,400|Raleway:300,400" rel="stylesheet">
+
